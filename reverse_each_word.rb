@@ -1,6 +1,7 @@
-phrase = "Hello there, and how are you?"
+hello_there = "Hello there, and how are you?"
 
-def reverse_each_word
+def reverse_each_word(phrase)
   reverse_phrase = []
-  
+  phrase.each do |word|
+    word.reverse
 end
