@@ -1,8 +1,8 @@
 hello_there = "Hello there, and how are you?"
 
 def reverse_each_word(phrase)
-  phrase.split.collect do |word|
+  reverse_phrase = phrase.split.collect do |word|
     word.reverse
   end
-    phrase
+    reverse_phrase.join
 end
